@@ -1,3 +1,5 @@
+# Plots the polynomial equation y = ax^2 + bx + c
+
 import matplotlib.pyplot as plt
 import numpy as np
 
