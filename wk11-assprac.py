@@ -11,7 +11,7 @@ def trap_function(g, a, b, N):
     while trap != N:
         mid_sum += g(a + deltax * trap)
         trap += 1
-    return deltax * (mid_sum + (g(a) + g(b)) / 2)
+    return deltax * (mid_sum + g(a) + g(b) / 2)
 
 
 print(trap_function(f, 0, np.pi/4, 10))
